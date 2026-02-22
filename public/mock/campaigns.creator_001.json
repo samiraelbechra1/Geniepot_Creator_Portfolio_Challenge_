@@ -1,0 +1,32 @@
+[
+  {
+    "id": "camp_ora_001",
+    "title": "Ora App Awareness Challenge",
+    "brand": "Ora Technologies",
+    "platform": "TikTok"
+  },
+  {
+    "id": "camp_jobzyn_001",
+    "title": "Jobzyn Hiring Push",
+    "brand": "Jobzyn",
+    "platform": "Instagram"
+  },
+  {
+    "id": "camp_soundtik_001",
+    "title": "Soundtik Launch Teaser",
+    "brand": "Soundtik",
+    "platform": "TikTok"
+  },
+  {
+    "id": "camp_hp_001",
+    "title": "HP Morocco Student Spotlight",
+    "brand": "HP Morocco",
+    "platform": "TikTok"
+  },
+  {
+    "id": "camp_digischool_001",
+    "title": "DigiSchool Innovation Showcase",
+    "brand": "DigiSchool",
+    "platform": "TikTok"
+  }
+]
