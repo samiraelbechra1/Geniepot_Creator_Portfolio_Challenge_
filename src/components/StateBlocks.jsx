@@ -2,7 +2,7 @@ import React from "react";
 
 export function LoadingBlock({ text = "Loading..." }) {
   return (
-    <div className="rounded-2xl border border-genieDark2/60 bg-[#005701] px-5 py-4">
+    <div className="rounded-2xl border border-[#074316]/60 bg-[#005701] px-5 py-4">
       <div className="text-white/80 text-sm">{text}</div>
     </div>
   );
@@ -10,7 +10,7 @@ export function LoadingBlock({ text = "Loading..." }) {
 
 export function ErrorBlock({ message = "Something went wrong.", onRetry }) {
   return (
-    <div className="rounded-2xl border border-genieDark2/60 bg-genieDark2/30 px-5 py-4">
+    <div className="rounded-2xl border border-[#074316]/60 bg-[#005701]/30 px-5 py-4">
       <div className="flex items-center justify-between gap-4">
         <div>
           <div className="text-white font-bold">Error</div>
@@ -19,7 +19,7 @@ export function ErrorBlock({ message = "Something went wrong.", onRetry }) {
 
         {onRetry && (
           <button
-            className="rounded-full border border-genieLime/50 text-genieLime px-4 py-2 text-sm font-semibold hover:bg-genieLime hover:text-genieDark transition"
+            className="rounded-full border  px-4 py-2 text-sm font-semibold  transition"
             onClick={onRetry}
           >
             Retry

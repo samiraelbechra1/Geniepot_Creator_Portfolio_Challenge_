@@ -15,14 +15,14 @@ export default function ProfileHeader({ creator }) {
       <div className="px-6 py-5">
         <div className="flex items-start gap-4">
           {/* Avatar */}
-          <div className="h-14 w-14 rounded-2xl bg-genieDark text-genieLime flex items-center justify-center font-extrabold text-lg border border-genieLime/20">
+          <div className="h-14 w-14 rounded-2xl bg-genieDark text-[#B7FF00] flex items-center justify-center font-extrabold text-lg border ">
             {initials(name)}
           </div>
 
           <div className="flex-1">
             <div className="flex flex-wrap items-baseline gap-3">
               <h1 className="text-2xl font-extrabold text-white">{name}</h1>
-              <span className="text-genieLime font-semibold">
+              <span className="text-[#B7FF00] font-semibold">
                 {creator?.username || ""}
               </span>
             </div>
