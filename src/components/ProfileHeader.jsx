@@ -10,11 +10,9 @@ export default function ProfileHeader({ creator }) {
   const name = creator?.name || "Unknown Creator";
 
   return (
-    <div className="rounded-2xl overflow-hidden border border-genieDark2/60 bg-[#005701]">
-      {/* Card header like geniepot */}
+    <div className="rounded-2xl overflow-hidden border border-[#074316]/60 bg-[#005701]">
       <div className="px-6 py-5">
         <div className="flex items-start gap-4">
-          {/* Avatar */}
           <div className="h-14 w-14 rounded-2xl bg-genieDark text-[#B7FF00] flex items-center justify-center font-extrabold text-lg border ">
             {initials(name)}
           </div>

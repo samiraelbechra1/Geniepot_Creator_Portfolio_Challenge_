@@ -208,7 +208,7 @@ function MiniStat({ label, value, accent = false }) {
         {label}
       </div>
       <div
-        className={`mt-1 text-xs font-semibold break-words ${
+        className={`mt-1 text-xs font-semibold wrap-break-words ${
           accent ? "text-genieLime" : "text-white"
         }`}
       >

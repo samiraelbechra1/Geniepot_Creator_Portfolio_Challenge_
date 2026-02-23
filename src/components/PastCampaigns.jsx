@@ -1,7 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { getCampaigns } from "../api/mockApi";
 
-// Usage: <PastCampaigns creatorId={id} />
 export default function PastCampaigns({ creatorId }) {
   const [campaigns, setCampaigns] = useState([]);
   const [loading, setLoading] = useState(true);
