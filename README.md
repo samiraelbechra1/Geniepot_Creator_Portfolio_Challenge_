@@ -24,11 +24,11 @@ Public portfolio page for a creator showcasing profile, performance stats, past 
 - Mock API (local JSON files)
 
 ## ▶ Run
-
 ```bash
 npm install
 npm run dev
 npm install react-router-dom
+
 
 🧠 Architecture
 
