@@ -30,11 +30,3 @@ npm run dev
 npm install react-router-dom
 
 
-🧠 Architecture
-
-API logic separated in mockApi.js
-Derived stats computed using useMemo
-Clean component structure
-
-👩‍💻 Author
-Samira El Bachra
